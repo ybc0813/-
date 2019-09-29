@@ -1,0 +1,85 @@
+.main{
+    width: 100%;
+    height: 100%;
+    /* background: darkgray; */
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    width: 100%;
+    height: 0.5rem;
+    background: firebrick;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom{
+    flex: 1;
+    display: flex;
+}
+.left{
+    width: 1.5rem;
+    background:#f1f1f1;
+}
+.right{
+    flex: 1;
+    background: url("/1.jpg") no-repeat;
+    background-size: 100% 100%;
+    padding: 0rem 0.3rem;
+}
+.top p:first-child{
+    width: 3rem;
+    padding: 0rem 0.3rem;
+    font-size: 0.2rem;
+    font-weight: 600;
+    color: white;
+}
+.top p:last-child{
+    flex: 1;
+    text-align: right;
+    padding: 0rem 0.3rem;
+    font-size: 0.15rem;
+    color: #ccc;
+}
+.img{
+    width: 100%;
+    height: 1rem;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}
+.right p{
+    padding: 0.2rem 0rem;
+    color: white;
+}
+.right p input{
+    width: 30%;
+    height: 0.3rem;
+}
+.right p span{
+    background: red;
+    color: white;
+    margin: 0.2rem;
+    padding: 0.09rem 0.15rem;
+}
+table{
+    width: 100%;
+    font-size: 0.15rem;
+}
+td,th{
+    text-align: center;
+    padding: 0.1rem 0rem;
+    border: 1px solid #ccc;
+    color: white;
+}
+.uu li{
+    text-align: center;
+    padding: 0.2rem 0rem;
+    border-bottom: 1px solid gray;
+    color:black;
+}
+.uu li:hover{
+    background: -webkit-linear-gradient(180deg, blue, black);
+    color: white;
+}
